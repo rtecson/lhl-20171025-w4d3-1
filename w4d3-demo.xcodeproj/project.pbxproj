@@ -9,16 +9,17 @@
 /* Begin PBXBuildFile section */
 		120366D81F44AD0C00612A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366D71F44AD0C00612A5A /* main.m */; };
 		120366DB1F44AD0C00612A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366DA1F44AD0C00612A5A /* AppDelegate.m */; };
-		120366DE1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 120366DC1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodeld */; };
+		120366DE1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 120366DC1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld */; };
 		120366E11F44AD0C00612A5A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366E01F44AD0C00612A5A /* MasterViewController.m */; };
 		120366E41F44AD0C00612A5A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366E31F44AD0C00612A5A /* DetailViewController.m */; };
 		120366E71F44AD0C00612A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366E51F44AD0C00612A5A /* Main.storyboard */; };
 		120366E91F44AD0C00612A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120366E81F44AD0C00612A5A /* Assets.xcassets */; };
 		120366EC1F44AD0C00612A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366EA1F44AD0C00612A5A /* LaunchScreen.storyboard */; };
+		2A5449B31F9F93100003F216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5449B21F9F93100003F216 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		120366D31F44AD0C00612A5A /* W4D3-CoreData-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W4D3-CoreData-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120366D31F44AD0C00612A5A /* w4d3-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w4d3-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		120366D71F44AD0C00612A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		120366D91F44AD0C00612A5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		120366DA1F44AD0C00612A5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +32,7 @@
 		120366E81F44AD0C00612A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120366EB1F44AD0C00612A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120366ED1F44AD0C00612A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5449B21F9F93100003F216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,8 @@
 		120366CA1F44AD0C00612A5A = {
 			isa = PBXGroup;
 			children = (
-				120366D51F44AD0C00612A5A /* W4D3-CoreData-starter */,
+				2A5449B21F9F93100003F216 /* Default-568h@2x.png */,
+				120366D51F44AD0C00612A5A /* w4d3-demo */,
 				120366D41F44AD0C00612A5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +58,12 @@
 		120366D41F44AD0C00612A5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				120366D31F44AD0C00612A5A /* W4D3-CoreData-starter.app */,
+				120366D31F44AD0C00612A5A /* w4d3-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		120366D51F44AD0C00612A5A /* W4D3-CoreData-starter */ = {
+		120366D51F44AD0C00612A5A /* w4d3-demo */ = {
 			isa = PBXGroup;
 			children = (
 				120366D91F44AD0C00612A5A /* AppDelegate.h */,
@@ -73,10 +76,10 @@
 				120366E81F44AD0C00612A5A /* Assets.xcassets */,
 				120366EA1F44AD0C00612A5A /* LaunchScreen.storyboard */,
 				120366ED1F44AD0C00612A5A /* Info.plist */,
-				120366DC1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodeld */,
+				120366DC1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld */,
 				120366D61F44AD0C00612A5A /* Supporting Files */,
 			);
-			path = "W4D3-CoreData-starter";
+			path = "w4d3-demo";
 			sourceTree = "<group>";
 		};
 		120366D61F44AD0C00612A5A /* Supporting Files */ = {
@@ -90,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		120366D21F44AD0C00612A5A /* W4D3-CoreData-starter */ = {
+		120366D21F44AD0C00612A5A /* w4d3-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "W4D3-CoreData-starter" */;
+			buildConfigurationList = 120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "w4d3-demo" */;
 			buildPhases = (
 				120366CF1F44AD0C00612A5A /* Sources */,
 				120366D01F44AD0C00612A5A /* Frameworks */,
@@ -102,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "W4D3-CoreData-starter";
+			name = "w4d3-demo";
 			productName = "W4D3-CoreData-starter";
-			productReference = 120366D31F44AD0C00612A5A /* W4D3-CoreData-starter.app */;
+			productReference = 120366D31F44AD0C00612A5A /* w4d3-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,17 +116,17 @@
 		120366CB1F44AD0C00612A5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Daniel Mathews";
 				TargetAttributes = {
 					120366D21F44AD0C00612A5A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 2VGL7CT34X;
+						DevelopmentTeam = H2GBZ259YT;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "W4D3-CoreData-starter" */;
+			buildConfigurationList = 120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "w4d3-demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				120366D21F44AD0C00612A5A /* W4D3-CoreData-starter */,
+				120366D21F44AD0C00612A5A /* w4d3-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				120366EC1F44AD0C00612A5A /* LaunchScreen.storyboard in Resources */,
+				2A5449B31F9F93100003F216 /* Default-568h@2x.png in Resources */,
 				120366E91F44AD0C00612A5A /* Assets.xcassets in Resources */,
 				120366E71F44AD0C00612A5A /* Main.storyboard in Resources */,
 			);
@@ -163,7 +167,7 @@
 				120366E11F44AD0C00612A5A /* MasterViewController.m in Sources */,
 				120366DB1F44AD0C00612A5A /* AppDelegate.m in Sources */,
 				120366D81F44AD0C00612A5A /* main.m in Sources */,
-				120366DE1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodeld in Sources */,
+				120366DE1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +203,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -207,7 +213,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -247,7 +257,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -255,7 +267,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -283,10 +299,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2VGL7CT34X;
-				INFOPLIST_FILE = "W4D3-CoreData-starter/Info.plist";
+				DEVELOPMENT_TEAM = H2GBZ259YT;
+				INFOPLIST_FILE = "w4d3-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.toysinboxes.W4D3-CoreData-starter";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.w4d3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -295,10 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2VGL7CT34X;
-				INFOPLIST_FILE = "W4D3-CoreData-starter/Info.plist";
+				DEVELOPMENT_TEAM = H2GBZ259YT;
+				INFOPLIST_FILE = "w4d3-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.toysinboxes.W4D3-CoreData-starter";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.w4d3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -306,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "W4D3-CoreData-starter" */ = {
+		120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "w4d3-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				120366EE1F44AD0C00612A5A /* Debug */,
@@ -315,24 +331,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "W4D3-CoreData-starter" */ = {
+		120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "w4d3-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				120366F11F44AD0C00612A5A /* Debug */,
 				120366F21F44AD0C00612A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		120366DC1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodeld */ = {
+		120366DC1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				120366DD1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodel */,
 			);
 			currentVersion = 120366DD1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodel */;
-			path = W4D3_CoreData_starter.xcdatamodeld;
+			path = "w4d3-demo.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

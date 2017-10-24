@@ -2,8 +2,8 @@
 //  DetailViewController.m
 //  W4D3-CoreData-starter
 //
-//  Created by Daniel Mathews on 2017-08-16.
-//  Copyright © 2017 Daniel Mathews. All rights reserved.
+//  Created by Roland Tecson on 2017-10-24.
+//  Copyright © 2017 Roland Tecson. All rights reserved.
 //
 
 #import "DetailViewController.h"
