@@ -9,37 +9,23 @@
 /* Begin PBXBuildFile section */
 		120366D81F44AD0C00612A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366D71F44AD0C00612A5A /* main.m */; };
 		120366DB1F44AD0C00612A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366DA1F44AD0C00612A5A /* AppDelegate.m */; };
-		120366DE1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 120366DC1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld */; };
-		120366E11F44AD0C00612A5A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366E01F44AD0C00612A5A /* MasterViewController.m */; };
-		120366E41F44AD0C00612A5A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120366E31F44AD0C00612A5A /* DetailViewController.m */; };
 		120366E71F44AD0C00612A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366E51F44AD0C00612A5A /* Main.storyboard */; };
 		120366E91F44AD0C00612A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120366E81F44AD0C00612A5A /* Assets.xcassets */; };
 		120366EC1F44AD0C00612A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366EA1F44AD0C00612A5A /* LaunchScreen.storyboard */; };
-		2A1CD8971F9FAA28007FB603 /* Meal+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */; };
-		2A1CD8981F9FAA28007FB603 /* Meal+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */; };
 		2A1CD89B1F9FD2E1007FB603 /* TestFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD89A1F9FD2E1007FB603 /* TestFilesViewController.m */; };
 		2A1CD89E1F9FDF15007FB603 /* TestUserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD89D1F9FDF15007FB603 /* TestUserDefaultsViewController.m */; };
 		2A5449B31F9F93100003F216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5449B21F9F93100003F216 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		120366D31F44AD0C00612A5A /* w4d3-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w4d3-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120366D31F44AD0C00612A5A /* w4d3-demo-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w4d3-demo-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		120366D71F44AD0C00612A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		120366D91F44AD0C00612A5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		120366DA1F44AD0C00612A5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		120366DD1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = W4D3_CoreData_starter.xcdatamodel; sourceTree = "<group>"; };
-		120366DF1F44AD0C00612A5A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		120366E01F44AD0C00612A5A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		120366E21F44AD0C00612A5A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		120366E31F44AD0C00612A5A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		120366E61F44AD0C00612A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		120366E81F44AD0C00612A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120366EB1F44AD0C00612A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120366ED1F44AD0C00612A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A1CD8931F9FAA28007FB603 /* Meal+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Meal+CoreDataClass.h"; path = "w4d3-demo/Meal+CoreDataClass.h"; sourceTree = "<group>"; };
-		2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Meal+CoreDataClass.m"; path = "w4d3-demo/Meal+CoreDataClass.m"; sourceTree = "<group>"; };
-		2A1CD8951F9FAA28007FB603 /* Meal+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Meal+CoreDataProperties.h"; path = "w4d3-demo/Meal+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Meal+CoreDataProperties.m"; path = "w4d3-demo/Meal+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2A1CD8991F9FD2E1007FB603 /* TestFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFilesViewController.h; sourceTree = "<group>"; };
 		2A1CD89A1F9FD2E1007FB603 /* TestFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFilesViewController.m; sourceTree = "<group>"; };
 		2A1CD89C1F9FDF15007FB603 /* TestUserDefaultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUserDefaultsViewController.h; sourceTree = "<group>"; };
@@ -61,11 +47,7 @@
 		120366CA1F44AD0C00612A5A = {
 			isa = PBXGroup;
 			children = (
-				2A1CD8931F9FAA28007FB603 /* Meal+CoreDataClass.h */,
-				2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */,
-				2A1CD8951F9FAA28007FB603 /* Meal+CoreDataProperties.h */,
-				2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */,
-				120366D51F44AD0C00612A5A /* w4d3-demo */,
+				120366D51F44AD0C00612A5A /* w4d3-demo-1 */,
 				120366D41F44AD0C00612A5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,12 +55,12 @@
 		120366D41F44AD0C00612A5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				120366D31F44AD0C00612A5A /* w4d3-demo.app */,
+				120366D31F44AD0C00612A5A /* w4d3-demo-1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		120366D51F44AD0C00612A5A /* w4d3-demo */ = {
+		120366D51F44AD0C00612A5A /* w4d3-demo-1 */ = {
 			isa = PBXGroup;
 			children = (
 				120366D91F44AD0C00612A5A /* AppDelegate.h */,
@@ -87,18 +69,13 @@
 				2A1CD89A1F9FD2E1007FB603 /* TestFilesViewController.m */,
 				2A1CD89C1F9FDF15007FB603 /* TestUserDefaultsViewController.h */,
 				2A1CD89D1F9FDF15007FB603 /* TestUserDefaultsViewController.m */,
-				120366DF1F44AD0C00612A5A /* MasterViewController.h */,
-				120366E01F44AD0C00612A5A /* MasterViewController.m */,
-				120366E21F44AD0C00612A5A /* DetailViewController.h */,
-				120366E31F44AD0C00612A5A /* DetailViewController.m */,
 				120366E51F44AD0C00612A5A /* Main.storyboard */,
 				120366E81F44AD0C00612A5A /* Assets.xcassets */,
 				120366EA1F44AD0C00612A5A /* LaunchScreen.storyboard */,
 				120366ED1F44AD0C00612A5A /* Info.plist */,
-				120366DC1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld */,
 				120366D61F44AD0C00612A5A /* Supporting Files */,
 			);
-			path = "w4d3-demo";
+			path = "w4d3-demo-1";
 			sourceTree = "<group>";
 		};
 		120366D61F44AD0C00612A5A /* Supporting Files */ = {
@@ -113,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		120366D21F44AD0C00612A5A /* w4d3-demo */ = {
+		120366D21F44AD0C00612A5A /* w4d3-demo-1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "w4d3-demo" */;
+			buildConfigurationList = 120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "w4d3-demo-1" */;
 			buildPhases = (
 				120366CF1F44AD0C00612A5A /* Sources */,
 				120366D01F44AD0C00612A5A /* Frameworks */,
@@ -125,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = "w4d3-demo";
+			name = "w4d3-demo-1";
 			productName = "W4D3-CoreData-starter";
-			productReference = 120366D31F44AD0C00612A5A /* w4d3-demo.app */;
+			productReference = 120366D31F44AD0C00612A5A /* w4d3-demo-1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "w4d3-demo" */;
+			buildConfigurationList = 120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "w4d3-demo-1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -159,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				120366D21F44AD0C00612A5A /* w4d3-demo */,
+				120366D21F44AD0C00612A5A /* w4d3-demo-1 */,
 			);
 		};
 /* End PBXProject section */
@@ -183,15 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				120366E41F44AD0C00612A5A /* DetailViewController.m in Sources */,
-				120366E11F44AD0C00612A5A /* MasterViewController.m in Sources */,
-				2A1CD8971F9FAA28007FB603 /* Meal+CoreDataClass.m in Sources */,
 				2A1CD89E1F9FDF15007FB603 /* TestUserDefaultsViewController.m in Sources */,
-				2A1CD8981F9FAA28007FB603 /* Meal+CoreDataProperties.m in Sources */,
 				120366DB1F44AD0C00612A5A /* AppDelegate.m in Sources */,
 				120366D81F44AD0C00612A5A /* main.m in Sources */,
 				2A1CD89B1F9FD2E1007FB603 /* TestFilesViewController.m in Sources */,
-				120366DE1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,9 +296,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2GBZ259YT;
-				INFOPLIST_FILE = "w4d3-demo/Info.plist";
+				INFOPLIST_FILE = "w4d3-demo-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.w4d3";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.w4d3-demo-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -336,9 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2GBZ259YT;
-				INFOPLIST_FILE = "w4d3-demo/Info.plist";
+				INFOPLIST_FILE = "w4d3-demo-1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.w4d3";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.w4d3-demo-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -346,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "w4d3-demo" */ = {
+		120366CE1F44AD0C00612A5A /* Build configuration list for PBXProject "w4d3-demo-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				120366EE1F44AD0C00612A5A /* Debug */,
@@ -355,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "w4d3-demo" */ = {
+		120366F01F44AD0C00612A5A /* Build configuration list for PBXNativeTarget "w4d3-demo-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				120366F11F44AD0C00612A5A /* Debug */,
@@ -365,19 +337,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		120366DC1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				120366DD1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodel */,
-			);
-			currentVersion = 120366DD1F44AD0C00612A5A /* W4D3_CoreData_starter.xcdatamodel */;
-			path = "w4d3-demo.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 120366CB1F44AD0C00612A5A /* Project object */;
 }
