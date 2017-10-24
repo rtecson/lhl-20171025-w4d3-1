@@ -17,6 +17,8 @@
 		120366EC1F44AD0C00612A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366EA1F44AD0C00612A5A /* LaunchScreen.storyboard */; };
 		2A1CD8971F9FAA28007FB603 /* Meal+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */; };
 		2A1CD8981F9FAA28007FB603 /* Meal+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */; };
+		2A1CD89B1F9FD2E1007FB603 /* TestFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD89A1F9FD2E1007FB603 /* TestFilesViewController.m */; };
+		2A1CD89E1F9FDF15007FB603 /* TestUserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD89D1F9FDF15007FB603 /* TestUserDefaultsViewController.m */; };
 		2A5449B31F9F93100003F216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5449B21F9F93100003F216 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,10 @@
 		2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Meal+CoreDataClass.m"; path = "w4d3-demo/Meal+CoreDataClass.m"; sourceTree = "<group>"; };
 		2A1CD8951F9FAA28007FB603 /* Meal+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Meal+CoreDataProperties.h"; path = "w4d3-demo/Meal+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Meal+CoreDataProperties.m"; path = "w4d3-demo/Meal+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2A1CD8991F9FD2E1007FB603 /* TestFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFilesViewController.h; sourceTree = "<group>"; };
+		2A1CD89A1F9FD2E1007FB603 /* TestFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFilesViewController.m; sourceTree = "<group>"; };
+		2A1CD89C1F9FDF15007FB603 /* TestUserDefaultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUserDefaultsViewController.h; sourceTree = "<group>"; };
+		2A1CD89D1F9FDF15007FB603 /* TestUserDefaultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUserDefaultsViewController.m; sourceTree = "<group>"; };
 		2A5449B21F9F93100003F216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +83,10 @@
 			children = (
 				120366D91F44AD0C00612A5A /* AppDelegate.h */,
 				120366DA1F44AD0C00612A5A /* AppDelegate.m */,
+				2A1CD8991F9FD2E1007FB603 /* TestFilesViewController.h */,
+				2A1CD89A1F9FD2E1007FB603 /* TestFilesViewController.m */,
+				2A1CD89C1F9FDF15007FB603 /* TestUserDefaultsViewController.h */,
+				2A1CD89D1F9FDF15007FB603 /* TestUserDefaultsViewController.m */,
 				120366DF1F44AD0C00612A5A /* MasterViewController.h */,
 				120366E01F44AD0C00612A5A /* MasterViewController.m */,
 				120366E21F44AD0C00612A5A /* DetailViewController.h */,
@@ -176,9 +186,11 @@
 				120366E41F44AD0C00612A5A /* DetailViewController.m in Sources */,
 				120366E11F44AD0C00612A5A /* MasterViewController.m in Sources */,
 				2A1CD8971F9FAA28007FB603 /* Meal+CoreDataClass.m in Sources */,
+				2A1CD89E1F9FDF15007FB603 /* TestUserDefaultsViewController.m in Sources */,
 				2A1CD8981F9FAA28007FB603 /* Meal+CoreDataProperties.m in Sources */,
 				120366DB1F44AD0C00612A5A /* AppDelegate.m in Sources */,
 				120366D81F44AD0C00612A5A /* main.m in Sources */,
+				2A1CD89B1F9FD2E1007FB603 /* TestFilesViewController.m in Sources */,
 				120366DE1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,11 +24,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-                                                                               target:self
-                                                                               action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
@@ -36,6 +31,15 @@
 {
     self.clearsSelectionOnViewWillAppear = self.splitViewController.isCollapsed;
     [super viewWillAppear:animated];
+}
+
+#pragma mark - IBActions
+
+- (IBAction)testButtonTapped:(UIBarButtonItem *)sender {
+}
+
+- (IBAction)addButtonTapped:(UIBarButtonItem *)sender {
+    [self insertNewObject:sender];
 }
 
 #pragma mark - Segues
@@ -222,6 +226,8 @@ commitEditingStyle:(UITableViewCellEditingStyle)editingStyle
                                                                    message:nil
                                                             preferredStyle:UIAlertControllerStyleAlert];
     
+    // Use the following variables by reference when inside the following blocks (default
+    // is by value)
     __block UITextField *nameTextField;
     __block UITextField *caloriesTextField;
     
