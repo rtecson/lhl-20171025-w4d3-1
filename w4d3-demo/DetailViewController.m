@@ -1,6 +1,6 @@
 //
 //  DetailViewController.m
-//  W4D3-CoreData-starter
+//  w4d3-demo
 //
 //  Created by Roland Tecson on 2017-10-24.
 //  Copyright © 2017 Roland Tecson. All rights reserved.
@@ -14,28 +14,13 @@
 
 @implementation DetailViewController
 
-- (void)configureView {
-    // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = self.detailItem.name;
-    }
-}
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
-#pragma mark - Managing the detail item
+// MARK: - Setter methods
 
 - (void)setDetailItem:(Meal *)newDetailItem {
     if (_detailItem != newDetailItem) {
@@ -46,5 +31,13 @@
     }
 }
 
+// MARK: - Private methods
+
+- (void)configureView {
+    // Update the user interface for the detail item.
+    if (self.detailItem) {
+        self.detailDescriptionLabel.text = self.detailItem.name;
+    }
+}
 
 @end

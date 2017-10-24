@@ -49,7 +49,6 @@
 		120366CA1F44AD0C00612A5A = {
 			isa = PBXGroup;
 			children = (
-				2A5449B21F9F93100003F216 /* Default-568h@2x.png */,
 				120366D51F44AD0C00612A5A /* w4d3-demo */,
 				120366D41F44AD0C00612A5A /* Products */,
 			);
@@ -85,6 +84,7 @@
 		120366D61F44AD0C00612A5A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A5449B21F9F93100003F216 /* Default-568h@2x.png */,
 				120366D71F44AD0C00612A5A /* main.m */,
 			);
 			name = "Supporting Files";

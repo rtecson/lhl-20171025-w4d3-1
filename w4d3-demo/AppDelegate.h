@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  W4D3-CoreData-starter
+//  w4d3-demo
 //
 //  Created by Roland Tecson on 2017-10-24.
 //  Copyright © 2017 Roland Tecson. All rights reserved.
@@ -12,7 +12,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;

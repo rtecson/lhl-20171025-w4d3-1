@@ -1,6 +1,6 @@
 //
 //  main.m
-//  W4D3-CoreData-starter
+//  w4d3-demo
 //
 //  Created by Roland Tecson on 2017-10-24.
 //  Copyright © 2017 Roland Tecson. All rights reserved.
