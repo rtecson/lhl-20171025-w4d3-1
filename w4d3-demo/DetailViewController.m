@@ -35,7 +35,7 @@
 
 - (void)configureView {
     // Update the user interface for the detail item.
-    if (self.detailItem) {
+    if (self.detailItem != nil) {
         self.detailDescriptionLabel.text = self.detailItem.name;
     }
 }

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "w4d3-demo+CoreDataModel.h"
+#import "Meal+CoreDataClass.h"
 
 @interface DetailViewController : UIViewController
 

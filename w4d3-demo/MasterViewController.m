@@ -11,6 +11,8 @@
 
 @interface MasterViewController ()
 
+@property (strong, nonatomic) NSFetchedResultsController<Meal *> *fetchedResultsController;
+
 @end
 
 @implementation MasterViewController

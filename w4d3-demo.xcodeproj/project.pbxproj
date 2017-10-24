@@ -15,6 +15,8 @@
 		120366E71F44AD0C00612A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366E51F44AD0C00612A5A /* Main.storyboard */; };
 		120366E91F44AD0C00612A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120366E81F44AD0C00612A5A /* Assets.xcassets */; };
 		120366EC1F44AD0C00612A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120366EA1F44AD0C00612A5A /* LaunchScreen.storyboard */; };
+		2A1CD8971F9FAA28007FB603 /* Meal+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */; };
+		2A1CD8981F9FAA28007FB603 /* Meal+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */; };
 		2A5449B31F9F93100003F216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5449B21F9F93100003F216 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,10 @@
 		120366E81F44AD0C00612A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120366EB1F44AD0C00612A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120366ED1F44AD0C00612A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1CD8931F9FAA28007FB603 /* Meal+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Meal+CoreDataClass.h"; path = "w4d3-demo/Meal+CoreDataClass.h"; sourceTree = "<group>"; };
+		2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Meal+CoreDataClass.m"; path = "w4d3-demo/Meal+CoreDataClass.m"; sourceTree = "<group>"; };
+		2A1CD8951F9FAA28007FB603 /* Meal+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Meal+CoreDataProperties.h"; path = "w4d3-demo/Meal+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Meal+CoreDataProperties.m"; path = "w4d3-demo/Meal+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2A5449B21F9F93100003F216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +55,10 @@
 		120366CA1F44AD0C00612A5A = {
 			isa = PBXGroup;
 			children = (
+				2A1CD8931F9FAA28007FB603 /* Meal+CoreDataClass.h */,
+				2A1CD8941F9FAA28007FB603 /* Meal+CoreDataClass.m */,
+				2A1CD8951F9FAA28007FB603 /* Meal+CoreDataProperties.h */,
+				2A1CD8961F9FAA28007FB603 /* Meal+CoreDataProperties.m */,
 				120366D51F44AD0C00612A5A /* w4d3-demo */,
 				120366D41F44AD0C00612A5A /* Products */,
 			);
@@ -165,6 +175,8 @@
 			files = (
 				120366E41F44AD0C00612A5A /* DetailViewController.m in Sources */,
 				120366E11F44AD0C00612A5A /* MasterViewController.m in Sources */,
+				2A1CD8971F9FAA28007FB603 /* Meal+CoreDataClass.m in Sources */,
+				2A1CD8981F9FAA28007FB603 /* Meal+CoreDataProperties.m in Sources */,
 				120366DB1F44AD0C00612A5A /* AppDelegate.m in Sources */,
 				120366D81F44AD0C00612A5A /* main.m in Sources */,
 				120366DE1F44AD0C00612A5A /* w4d3-demo.xcdatamodeld in Sources */,
